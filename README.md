@@ -1,5 +1,5 @@
 # JavaScript-Programming-Exercises
-1. Given a list of names, write a Javascript (without using Javascript sort) program to sort them alphabetically.
+1) Given a list of names, write a Javascript (without using Javascript sort) program to sort them alphabetically.
 
 
 e.g.
@@ -23,7 +23,7 @@ Exercise Output: ?
 
 ___________________
 
-2. MOST IMPORTANT: Given a list of number sets, write a Javascript program to determine the intersection of sets and output the results. Extra points for using D3.js to visualize the results.
+2) MOST IMPORTANT: Given a list of number sets, write a Javascript program to determine the intersection of sets and output the results. Extra points for using D3.js to visualize the results.
 
 
 e.g.
