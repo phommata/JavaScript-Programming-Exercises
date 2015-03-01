@@ -1,0 +1,82 @@
+{
+ "name": "comboset-results",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "result1",
+     "children": [
+      {"name": "16", "size": 22}
+     ]
+    },
+    {
+     "name": "result2",
+     "children": [
+      {"name": "14", "size": 240}
+     ]
+    },
+    {
+     "name": "result3",
+     "children": [
+      {"name": "6", "size": 52}
+     ]
+    },
+    {
+     "name": "result4",
+     "children": [
+      {"name": "15", "size": 8}
+     ]
+    },
+    {
+     "name": "result5",
+     "children": [
+      {"name": "11", "size": 2}
+     ]
+    },
+    {
+     "name": "result6",
+     "children": [
+      {"name": "4", "size": 2}
+     ]
+    },
+    {
+     "name": "result7",
+     "children": [
+      {"name": "3", "size": 8}
+     ]
+    },
+    {
+     "name": "result8",
+     "children": [
+      {"name": "2", "size": 22}
+     ]
+    },
+    {
+     "name": "result9",
+     "children": [
+      {"name": "8", "size": 22}
+     ]
+    },
+    {
+     "name": "result10",
+     "children": [
+      {"name": "10", "size": 22}
+     ]
+    },
+    {
+     "name": "result11",
+     "children": [
+      {"name": "19", "size": 2}
+     ]
+    },        
+    {
+     "name": "result12",
+     "children": [
+      {"name": "18", "size": 8}
+     ]
+    }
+   ]
+  }
+ ]
+}

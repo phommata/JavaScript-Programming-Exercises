@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort the array.</p> 
+<p>["Pok", "Ocie", "Justine", "Marta", "Adelle", "Gisele", "Karin", "Ginny", "Stormy", "Riva", "Dawna", "Marcelino", "Starr", "Cleveland", "Cyril", "Brendan", "Myrl", "Porfirio", "Salena", "Kristel"]</p>
+
+<button onclick="bubbleSort()">Sort it</button>
+
+<p id="demo"></p>
+
+<script>
+	var a = ["Pok", "Ocie", "Justine", "Marta", "Adelle", "Gisele", "Karin", "Ginny", "Stormy", "Riva", "Dawna", "Marcelino", "Starr", "Cleveland", "Cyril", "Brendan", "Myrl", "Porfirio", "Salena", "Kristel"];
+	
+	function bubbleSort()
+	{	
+		var swapped;
+		do {
+			swapped = false;
+			for (var i=0; i < a.length-1; i++) {
+				if (a[i] > a[i+1]) {
+					var temp = a[i];
+					a[i] = a[i+1];
+					a[i+1] = temp;
+					swapped = true;
+				}
+			}
+		} while (swapped);
+	//}
+	 
+		console.log(a);
+		document.getElementById("demo").innerHTML = a;
+	}
+</script>
+
+</body>
+</html>
