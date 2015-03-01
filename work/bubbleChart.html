@@ -22,6 +22,8 @@ Set 10: 14, 10, 12, 4, 18<br>
 </p>
 <p id="chart">
 
+<p id="intersectResults"></p>
+
 <p>Click the button to find the intersection of the unsorted arrays.</p>
 <p>(Takes a few seconds to calculate the awesome results.)</p> 
 <p><button id="comboBtn" onclick="string_recurse('', 'abcdefghij')">Combo it</button></p>
@@ -73,7 +75,7 @@ function string_recurse(active, rest) {
 		string_recurse(active + rest.charAt(0), rest.substring(1, rest.length));
 		string_recurse(active, rest.substring(1, rest.length));
 	}
-	document.getElementById("intersect").innerHTML = totalRes;
+	document.getElementById("intersectResults").innerHTML = totalRes;
 }
 function arrayIntersect(y, z)
 {
@@ -220,4 +222,3 @@ d3.select(self.frameElement).style("height", diameter + "px");
 </script>
 <!--<img id="spinner" src="">-->
 
-<div id="intersect"></div>
